@@ -1,0 +1,14 @@
+#include <string>
+#include <cassert>
+
+int main() 
+{
+    assert(true);
+    assert('a' != 'b');
+    assert(123 == 123);
+    assert(0.23 > -1); 
+    //estos son los tipos de asserts vistos en clase con ejemplos
+
+    
+
+}
