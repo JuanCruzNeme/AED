@@ -11,7 +11,7 @@ int main()
     assert(not false); 
     assert(true != false);
     assert(true == not false);
-    assert(true and not false != not true and false);
+    assert(true and not true == false and not false);
     // and or != == not
     
     //caracteres
